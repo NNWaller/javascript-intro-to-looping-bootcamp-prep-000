@@ -1,5 +1,5 @@
-function forLoop (array) {
- for (let i = 0; i < 25; i++) {
+function forLoop (testArray) {
+ for (let i = 0; i < testArray.length; i++) {
    if (i === 1){
      console.log ('I am 1 strange loop.');
    } else { 
@@ -8,7 +8,6 @@ function forLoop (array) {
    }
  }
 }
-
 
 
 let n = 37;
